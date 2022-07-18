@@ -1,0 +1,15 @@
+{
+  "name": "login-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx playwright test",
+    "allure:report": "allure generate allure-results -o allure-report --clean"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.22.2",
+    "allure-commandline": "^2.17.2",
+    "allure-playwright": "^2.0.0-beta.17"
+  }
+}
